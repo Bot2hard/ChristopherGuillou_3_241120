@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7006402bdc.js" crossorigin="anonymous"></script>
     <title>Oh My Food</title>
 </head>
@@ -11,15 +12,13 @@
 <body>
     <header>
         <a href="#">
-            <img src="img/ohmyfood.png" alt="le logo du site">
+            <img src="img/ohmyfood.png" class="logo" alt="le logo du site">
         </a>
     </header>
     <section class="localisation">
         <span class="localisation__text">
             <i class="fas fa-map-marker-alt"></i>
-            <p>
-                Paris, Belleville
-            </p>
+            Paris, Belleville
         </span>
     </section>
     <section class="titre">
@@ -37,15 +36,20 @@
         <h2>
             Fonctionnement
         </h2>
-        <span class="btn__fonction">
-            <i class="fas fa-mobile-alt"></i> Choisissez un restaurant
-        </span>
-        <span class="btn__fonction">
-            <i class="fas fa-list-ul"></i> Composez votre menu
-        </span>
-        <span class="btn__fonction">
-            <i class="fas fa-store"></i> Dégustez au restaurant
-        </span>
+        
+            <div class="btn__fonction">
+                <span class="list__btn">1</span>
+                <i class="fas fa-mobile-alt"></i> Choisissez un restaurant
+            </div>
+            <div class="btn__fonction">
+                <span class="list__btn">2</span>
+                <i class="fas fa-list-ul"></i> Composez votre menu
+            </div>
+            <div class="btn__fonction">
+                <span class="list__btn">3</span>
+                <i class="fas fa-store istyle"></i> Dégustez au restaurant
+            </div>
+        
     </section>
     <section class="restaurant">
         <section class="img__restaurant">
