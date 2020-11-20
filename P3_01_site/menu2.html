@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylmenu.css">
     <script src="https://kit.fontawesome.com/7006402bdc.js" crossorigin="anonymous"></script>
     <title>Oh My Food</title>
 </head>
@@ -13,10 +14,10 @@
         <a href="index.html">
             <i class="fas fa-arrow-left"></i>
         </a>
-        <img src="img/ohmyfood.png" alt="le logo du site">
+        <h1>Ohmyfood</h1>
     </header>
     <div class="banniere">
-        <img src="img/LaNote.jpg" alt="plat du restaurant A la française">
+        <img src="img/LaNote.jpg" alt="plat du restaurant La note enchantée">
     </div>
     <main class="carte">
         <section class="carte__titre">
@@ -26,19 +27,27 @@
             <h2>ENTRÉES</h2>
             <section class="menu">
                 <h3>Raviole de foie gras</h3>
-                <span> Accompagnés de leur crème à la truffe 25€</span>
+                <div class="menu__text">
+                    Accompagnés de leur crème à la truffe<span>25€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Caviar osciètre</h3>
-                <span> Sur blini à la farine de blé noir 35€</span>
+                <div class="menu__text">
+                    Sur blini à la farine de blé noir<span>35€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Homard et espuma de potiron</h3>
-                <span> Mariné aux zest d'orange 20€</span>
+                <div class="menu__text">
+                    Mariné aux zest d'orange<span>20€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Foie gras de canard cuit entier</h3>
-                <span> Confiture de figue et pain toasté 35€</span>
+                <div class="menu__text">
+                    Confiture de figue et pain toasté<span>35€</span>
+                </div>
             </section>
         </section>
 
@@ -46,15 +55,21 @@
             <h2>PLATS</h2>
             <section class="menu">
                 <h3>Noix de coquilles Saint-Jacques</h3>
-                <span> Sur lit de purée de céleri-rave 40€</span>
+                <div class="menu__text">
+                    Sur lit de purée de céleri-rave<span>40€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Langoustine poêlée</h3>
-                <span> Purée de patate douce 35€</span>
+                <div class="menu__text">
+                    Purée de patate douce<span>35€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Mijoté de queue de boeuf</h3>
-                <span> Et riz sauvage aux zestes de citron 44€</span>
+                <div class="menu__text">
+                    Et riz sauvage aux zestes de citron<span>44€</span>
+                </div>
             </section>
         </section>
 
@@ -62,29 +77,38 @@
             <h2>DESSERTS</h2>
             <section class="menu">
                 <h3>Macaron noisette et chocolat</h3>
-                <span> Glace au caramal brun et sel de Guérande 18€</span>
+                <div class="menu__text">
+                    Glace au caramal brun et sel de Guérande<span>18€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Baba au rhum revisité</h3>
-                <span> Avec son coulis de citron 22€</span>
+                <div class="menu__text">
+                    Avec son coulis de citron<span>22€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Tarte au citron meringuée</h3>
-                <span> Destructurée 23€</span>
+                <div class="menu__text">
+                    Destructurée<span>23€</span>
+                </div>
             </section>
-            <div class="btn">
-                Commander
-            </div>
+            <span class="centrage__btn">
+                <div class="btn">
+                    Commander
+                </div>
+            </span>
         </section>
     </main>
     <footer>
-        <img src="img/ohmyfood@2x.svg" alt="le logo en miniature">
+        
+        <h2>Ohmyfood</h2>
         <ul>
             <li>
-                <i></i> Proposer un restaurant
+                <i class="fas fa-utensils fourchette"></i> Proposer un restaurant
             </li>
             <li>
-                <i></i> Devenir partenaire
+                <i class="fas fa-hands-helping"></i> Devenir partenaire
             </li>
             <li>
                 Mention légales
@@ -93,6 +117,7 @@
                 Contact
             </li>
         </ul>
+
     </footer>
 </body>
 

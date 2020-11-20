@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylmenu.css">
     <script src="https://kit.fontawesome.com/7006402bdc.js" crossorigin="anonymous"></script>
     <title>Oh My Food</title>
 </head>
@@ -13,28 +14,34 @@
         <a href="index.html">
             <i class="fas fa-arrow-left"></i>
         </a>
-        <img src="img/ohmyfood.png" alt="le logo du site">
+        <h1>Ohmyfood</h1>
     </header>
     <div class="banniere">
-        <img src="img/delice.jpg" alt="plat du restaurant A la française">
+        <img src="img/delice.jpg" alt="plat du restaurant Le délice des sens">
     </div>
     <main class="carte">
         <section class="carte__titre">
-            <h1>A la française</h1> <i class="far fa-heart"></i>
+            <h1>Le délice des sens</h1> <i class="far fa-heart"></i>
         </section>
         <section class="carte__menu">
             <h2>ENTRÉES</h2>
             <section class="menu">
                 <h3>Tartare de thon</h3>
-                <span> Assaisonné au yuzu 25€</span>
+                <div class="menu__text">
+                    Assaisonné au yuzu<span>25€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Bouchée de homard croustillant</h3>
-                <span> Et sa farandole de petits légumes 35€</span>
+                <div class="menu__text">
+                    Et sa farandole de petits légumes<span>35€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Velouté de cèpes</h3>
-                <span> Aux truffes 20€</span>
+                <div class="menu__text">
+                    Aux truffes<span>20€</span>
+                </div>
             </section>
         </section>
 
@@ -42,15 +49,21 @@
             <h2>PLATS</h2>
             <section class="menu">
                 <h3>Poulet rôti aux herbes de Provence</h3>
-                <span> Et sa crème de truffe 40€</span>
+                <div class="menu__text">
+                    Et sa crème de truffe<span>40€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Langouste rôtie </h3>
-                <span> Et ses légumes de saison 35€</span>
+                <div class="menu__text">
+                    Et ses légumes de saison<span>35€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Côte de boeuf Angus</h3>
-                <span> Et sa purée de panais 44€</span>
+                <div class="menu__text">
+                    Et sa purée de panais<span>44€</span>
+                </div>
             </section>
         </section>
 
@@ -58,29 +71,37 @@
             <h2>DESSERTS</h2>
             <section class="menu">
                 <h3>Farandole de desserts</h3>
-                <span> Du chef 18€</span>
+                <div class="menu__text">
+                    Du chef<span>18€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Crème brulée</h3>
-                <span> Revisitée 22€</span>
+                <div class="menu__text">
+                    Revisitée<span>22€</span>
+                </div>
             </section>
             <section class="menu">
                 <h3>Tiramisu</h3>
-                <span> À la noisette 23€</span>
+                <div class="menu__text">
+                    À la noisette<span>23€</span>
             </section>
-            <div class="btn">
-                Commander
-            </div>
+            <span class="centrage__btn">
+                <div class="btn">
+                    Commander
+                </div>
+            </span>
         </section>
     </main>
     <footer>
-        <img src="img/ohmyfood@2x.svg" alt="le logo en miniature">
+        
+        <h2>Ohmyfood</h2>
         <ul>
             <li>
-                <i></i> Proposer un restaurant
+                <i class="fas fa-utensils fourchette"></i> Proposer un restaurant
             </li>
             <li>
-                <i></i> Devenir partenaire
+                <i class="fas fa-hands-helping"></i> Devenir partenaire
             </li>
             <li>
                 Mention légales
@@ -89,6 +110,7 @@
                 Contact
             </li>
         </ul>
+
     </footer>
 </body>
 
