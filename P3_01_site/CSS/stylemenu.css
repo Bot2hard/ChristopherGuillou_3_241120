@@ -4,7 +4,6 @@ html{
     --primary: #9356DC;
     --secondary: #FF79DA;
     --tertiaire: #99E2D0;
-    --cursor: pointer;
 }
 *{
     box-sizing: border-box;
@@ -31,6 +30,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+header i{
+    position: absolute;
+    top: 2em;
+    left: 1em;
 }
 
 header h1{
@@ -82,7 +87,7 @@ header h1{
 .menu{
     font-family: 'Roboto-Regular';
     min-height: 4em;
-    max-height: 4em;
+    
     width: 100%;
     background: #ffffff;
     box-shadow: 0 0 5px #a8a8a8;
@@ -154,4 +159,72 @@ footer i{
 }
 .fourchette{
     width: 20px;
+}
+@media screen and (min-width:768px) and (max-width:1025px){
+    
+    
+    
+    footer h2{
+        text-align: center;
+    }
+    footer ul{
+        display: flex; 
+    }
+    footer li{
+        margin-bottom: 0.5em;
+        margin-right: 4em;
+    }
+}    
+@media screen and (min-width:1026px){
+    
+    main{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .carte__titre{
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+    .carte__titre i{
+        font-size: 1.2em;
+        position: absolute;
+        top: 1.5em;
+        right: 2em;
+    }
+    .carte__menu{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .carte__menu h2{
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .menu{
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        width: 32%;
+        height: 8em;
+        padding: 0.3em;
+    }
+    .menu__text{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        align-items: center;
+    }
+    .menu h3{
+        text-align: center;
+        width: 100%;
+    }
+    .centrage__btn{
+        display: flex;
+        text-align: center;
+        width: 30%;
+    }
 }
