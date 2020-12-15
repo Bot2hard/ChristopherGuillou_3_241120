@@ -34,12 +34,12 @@ header{
 }
 header i{
     position: absolute;
-    top: 2em;
+    top: 3.5em;
     left: 1em;
 }
 
-header h1{
-    font-size: 30px;
+header p{
+    font-size: 40px;
     font-family: Shrikhand-Regular;
     margin-bottom: 0.5em;
 }
@@ -112,21 +112,6 @@ header h1{
     border-bottom: 2px solid #99E2D0;
     width: 2.5em;
 }
-/*.menu{
-    font-family: 'Roboto-Regular';
-    min-height: 4em;
-    
-    width: 100%;
-    background: #ffffff;
-    box-shadow: 0 0 5px #a8a8a8;
-    border-radius: 1.25em;
-    padding-top: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-bottom: 1.5em;
-    text-overflow: ellipsis;
-    cursor: pointer;
-}*/
 .menu{
     font-family: 'Roboto-Regular';
     position: relative;
@@ -329,15 +314,6 @@ footer i{
     width: 20px;
 }
 @media screen and (min-width:768px) and (max-width:1025px){
-    
-    .anime{
-
-    }
-    .anime::after{
-
-    }
-    
-    
     footer h2{
         text-align: center;
     }
