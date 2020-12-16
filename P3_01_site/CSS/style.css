@@ -33,7 +33,7 @@ a{
     bottom: 0;
     background-color: white;
     text-align: center;
-    color: rgb(40, 231, 50);
+    
     animation-name: wrapper;
     animation-duration: 3s; 
     opacity: 0;

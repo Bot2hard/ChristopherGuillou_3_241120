@@ -178,8 +178,12 @@ header p{
     display: flex;
     justify-content: space-between;
     font-size: 15px;
-    text-overflow: ellipsis;
+    
+}
+.text__anime{
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .prix{
     font-weight: bold;
